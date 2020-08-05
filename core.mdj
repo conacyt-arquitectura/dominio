@@ -2258,7 +2258,7 @@
 													"top": 620,
 													"width": 164.3916015625,
 													"height": 13,
-													"text": "+proyecto: Proyecto",
+													"text": "+apoyo: Apoyo",
 													"horizontalAlignment": 0
 												}
 											],
@@ -2295,7 +2295,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -208,
-											"top": 224,
+											"top": 216,
 											"width": 10,
 											"height": 10
 										},
@@ -2311,7 +2311,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -208,
-											"top": 224,
+											"top": 216,
 											"width": 10,
 											"height": 10
 										}
@@ -2805,7 +2805,7 @@
 													"top": 303,
 													"width": 110.5126953125,
 													"height": 13,
-													"text": "CampoAmplio"
+													"text": "Area"
 												},
 												{
 													"_type": "LabelView",
@@ -3075,7 +3075,7 @@
 													"top": 431,
 													"width": 109.08447265625,
 													"height": 13,
-													"text": "CampoEspecifico"
+													"text": "Campo"
 												},
 												{
 													"_type": "LabelView",
@@ -3251,7 +3251,7 @@
 													"top": 455,
 													"width": 102.57177734375,
 													"height": 13,
-													"text": "CampoDetallado"
+													"text": "Disciplina"
 												},
 												{
 													"_type": "LabelView",
@@ -3427,7 +3427,7 @@
 													"top": 407,
 													"width": 93.1708984375,
 													"height": 13,
-													"text": "CampoUnitario"
+													"text": "Subdisciplina"
 												},
 												{
 													"_type": "LabelView",
@@ -3974,7 +3974,7 @@
 													"top": 341,
 													"width": 205.59423828125,
 													"height": 13,
-													"text": "+campoUnitario: CampoUnitario",
+													"text": "+campoUnitario: Subdisciplina",
 													"horizontalAlignment": 0
 												}
 											],
@@ -4440,7 +4440,6 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"left": 384,
-													"top": -16,
 													"height": 13
 												},
 												{
@@ -4451,7 +4450,7 @@
 													},
 													"font": "Arial;13;1",
 													"left": 1205,
-													"top": 823,
+													"top": 831,
 													"width": 114.53076171875,
 													"height": 13,
 													"text": "Etapa"
@@ -4465,7 +4464,6 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"left": 384,
-													"top": -16,
 													"width": 63.55908203125,
 													"height": 13,
 													"text": "(from core)"
@@ -4479,14 +4477,13 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"left": 384,
-													"top": -16,
 													"height": 13,
 													"horizontalAlignment": 1
 												}
 											],
 											"font": "Arial;13;0",
 											"left": 1200,
-											"top": 816,
+											"top": 824,
 											"width": 124.53076171875,
 											"height": 25,
 											"stereotypeLabel": {
@@ -4523,7 +4520,7 @@
 													},
 													"font": "Arial;13;0",
 													"left": 1205,
-													"top": 846,
+													"top": 854,
 													"width": 114.53076171875,
 													"height": 13,
 													"text": "+nombre: String",
@@ -4540,7 +4537,7 @@
 													},
 													"font": "Arial;13;0",
 													"left": 1205,
-													"top": 861,
+													"top": 869,
 													"width": 114.53076171875,
 													"height": 13,
 													"text": "+descripcion: String",
@@ -4557,7 +4554,7 @@
 													},
 													"font": "Arial;13;0",
 													"left": 1205,
-													"top": 876,
+													"top": 884,
 													"width": 114.53076171875,
 													"height": 13,
 													"text": "+duracion: String",
@@ -4566,7 +4563,7 @@
 											],
 											"font": "Arial;13;0",
 											"left": 1200,
-											"top": 841,
+											"top": 849,
 											"width": 124.53076171875,
 											"height": 53
 										},
@@ -4581,7 +4578,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1200,
-											"top": 894,
+											"top": 902,
 											"width": 124.53076171875,
 											"height": 10
 										},
@@ -4597,7 +4594,6 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 192,
-											"top": -8,
 											"width": 10,
 											"height": 10
 										},
@@ -4613,7 +4609,6 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 192,
-											"top": -8,
 											"width": 10,
 											"height": 10
 										}
@@ -4621,7 +4616,7 @@
 									"font": "Arial;13;0",
 									"containerChangeable": true,
 									"left": 1200,
-									"top": 816,
+									"top": 824,
 									"width": 124.53076171875,
 									"height": 88,
 									"nameCompartment": {
@@ -6146,7 +6141,7 @@
 													"top": 887,
 													"width": 225.8115234375,
 													"height": 13,
-													"text": "+etapa",
+													"text": "+etapa: Etapa",
 													"horizontalAlignment": 0
 												},
 												{
@@ -6214,7 +6209,7 @@
 													"top": 947,
 													"width": 225.8115234375,
 													"height": 13,
-													"text": "+responsables[*]",
+													"text": "+responsables: PersonaFisica[*]",
 													"horizontalAlignment": 0
 												}
 											],
@@ -6443,7 +6438,7 @@
 													"top": 844,
 													"width": 157.03466796875,
 													"height": 13,
-													"text": "#etapa",
+													"text": "#etapa: Etapa",
 													"horizontalAlignment": 0
 												},
 												{
@@ -6460,7 +6455,7 @@
 													"top": 859,
 													"width": 157.03466796875,
 													"height": 13,
-													"text": "#tipoRecurso",
+													"text": "#tipoRecurso: TipoRecurso",
 													"horizontalAlignment": 0
 												},
 												{
@@ -6477,7 +6472,7 @@
 													"top": 874,
 													"width": 157.03466796875,
 													"height": 13,
-													"text": "#tipoGasto",
+													"text": "#tipoGasto: String",
 													"horizontalAlignment": 0
 												},
 												{
@@ -6494,7 +6489,7 @@
 													"top": 889,
 													"width": 157.03466796875,
 													"height": 13,
-													"text": "#rubro",
+													"text": "#rubro: Rubro",
 													"horizontalAlignment": 0
 												},
 												{
@@ -12572,10 +12567,10 @@
 									"_parent": {
 										"$ref": "AAAAAAFyUuMvJCuqzzg="
 									},
-									"name": "proyecto",
-									"documentation": "El proyecto en el que participa la persona.",
+									"name": "apoyo",
+									"documentation": "El apoyo en el que participa la persona.",
 									"type": {
-										"$ref": "AAAAAAFyUonrGyDzRC0="
+										"$ref": "AAAAAAFyVvdLamJfK64="
 									}
 								}
 							]
@@ -12586,7 +12581,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFx8b04IVMDsQE="
 							},
-							"name": "CampoAmplio",
+							"name": "Area",
 							"ownedElements": [
 								{
 									"_type": "UMLInterfaceRealization",
@@ -12610,7 +12605,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFx8b04IVMDsQE="
 							},
-							"name": "CampoEspecifico",
+							"name": "Campo",
 							"ownedElements": [
 								{
 									"_type": "UMLInterfaceRealization",
@@ -12634,7 +12629,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFx8b04IVMDsQE="
 							},
-							"name": "CampoDetallado",
+							"name": "Disciplina",
 							"ownedElements": [
 								{
 									"_type": "UMLInterfaceRealization",
@@ -12658,7 +12653,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFx8b04IVMDsQE="
 							},
-							"name": "CampoUnitario",
+							"name": "Subdisciplina",
 							"ownedElements": [
 								{
 									"_type": "UMLInterfaceRealization",
@@ -13063,7 +13058,9 @@
 									},
 									"name": "etapa",
 									"documentation": "La etapa a la que pertenece.",
-									"type": ""
+									"type": {
+										"$ref": "AAAAAAFyUv07NTkR10Q="
+									}
 								},
 								{
 									"_type": "UMLAttribute",
@@ -13108,7 +13105,9 @@
 									},
 									"name": "responsables",
 									"documentation": "Las personas responsables de esta actividad.",
-									"type": "",
+									"type": {
+										"$ref": "AAAAAAFyUo1kKyZ/QL0="
+									},
 									"multiplicity": "*"
 								}
 							]
@@ -13153,7 +13152,9 @@
 									"name": "etapa",
 									"documentation": "La etapa del proyecto a la que pertenece este gasto.",
 									"visibility": "protected",
-									"type": ""
+									"type": {
+										"$ref": "AAAAAAFyUv07NTkR10Q="
+									}
 								},
 								{
 									"_type": "UMLAttribute",
@@ -13164,7 +13165,9 @@
 									"name": "tipoRecurso",
 									"documentation": "El tipo de recurso de este gasto.",
 									"visibility": "protected",
-									"type": ""
+									"type": {
+										"$ref": "AAAAAAFyU0uYZEcgVRA="
+									}
 								},
 								{
 									"_type": "UMLAttribute",
@@ -13175,7 +13178,7 @@
 									"name": "tipoGasto",
 									"documentation": "El tipo de gasto.",
 									"visibility": "protected",
-									"type": ""
+									"type": "String"
 								},
 								{
 									"_type": "UMLAttribute",
@@ -13186,7 +13189,9 @@
 									"name": "rubro",
 									"documentation": "El rubro al que pertenece este gasto.",
 									"visibility": "protected",
-									"type": ""
+									"type": {
+										"$ref": "AAAAAAFyVm5eXUhUQY8="
+									}
 								},
 								{
 									"_type": "UMLAttribute",
